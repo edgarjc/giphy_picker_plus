@@ -1,4 +1,4 @@
-library giphy_picker;
+library giphy_picker_plus;
 
 import 'dart:async';
 import 'package:flutter/material.dart';
