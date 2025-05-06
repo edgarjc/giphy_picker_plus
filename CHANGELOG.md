@@ -1,4 +1,6 @@
-## Changelog
+## 3.0.3
+* Forked from giphy_picker version 3.0.1.
+* Applied compatibility fixes for Flutter 3.7+:
 
 - **Replaced** deprecated `ThemeData.errorColor`  
   → Now uses `Theme.of(context).colorScheme.error`.
@@ -14,18 +16,6 @@
 
 > ✅ **Recommendation:**  
 > Switch to this package if you are using Flutter 3.x or later.
-
-## 3.0.3
-* Forked from giphy_picker version 3.0.1.
-* Applied compatibility fixes for Flutter 3.7+:
-
-Replaced deprecated ThemeData.errorColor with Theme.of(context).colorScheme.error.
-
-Updated deprecated TextTheme.bodyText1 to Theme.of(context).textTheme.bodyLarge.
-
-Published as a new package (giphy_picker_plus) on pub.dev to maintain compatibility and allow others to use without manual patching.
-
-✅ Recommend switching to this package if using Flutter 3.x or later.
 
 ## 3.0.2
 * Adds appBarBuilder for customizing AppBar in search and preview pages
