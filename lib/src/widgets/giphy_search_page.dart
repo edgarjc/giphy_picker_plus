@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:giphy_picker/src/widgets/giphy_context.dart';
-import 'package:giphy_picker/src/widgets/giphy_search_view.dart';
+import 'package:giphy_picker_plus/src/widgets/giphy_context.dart';
+import 'package:giphy_picker_plus/src/widgets/giphy_search_view.dart';
 
 /// The giphy search page.
 class GiphySearchPage extends StatelessWidget {

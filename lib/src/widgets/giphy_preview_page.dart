@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:giphy_picker/src/model/giphy_client.dart';
-import 'package:giphy_picker/src/widgets/giphy_context.dart';
-import 'package:giphy_picker/src/widgets/giphy_image.dart';
+import 'package:giphy_picker_plus/src/model/giphy_client.dart';
+import 'package:giphy_picker_plus/src/widgets/giphy_context.dart';
+import 'package:giphy_picker_plus/src/widgets/giphy_image.dart';
 
 /// Presents a Giphy preview image.
 class GiphyPreviewPage extends StatelessWidget {

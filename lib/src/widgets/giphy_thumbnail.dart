@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
-import 'package:giphy_picker/src/model/giphy_repository.dart';
+import 'package:giphy_picker_plus/src/model/giphy_repository.dart';
 
 /// Loads and renders a gif thumbnail image using a GiphyRepostory and an index.
 class GiphyThumbnail extends StatefulWidget {

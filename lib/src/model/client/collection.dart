@@ -1,4 +1,4 @@
-import 'package:giphy_picker/src/model/client/gif.dart';
+import 'package:giphy_picker_plus/src/model/client/gif.dart';
 
 /// Represents a collection of GIF images, usually the result of a search operation.
 class GiphyCollection {

@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:giphy_picker/src/model/client/collection.dart';
-import 'package:giphy_picker/src/model/client/gif.dart';
-import 'package:giphy_picker/src/model/client/languages.dart';
-import 'package:giphy_picker/src/model/client/rating.dart';
+import 'package:giphy_picker_plus/src/model/client/collection.dart';
+import 'package:giphy_picker_plus/src/model/client/gif.dart';
+import 'package:giphy_picker_plus/src/model/client/languages.dart';
+import 'package:giphy_picker_plus/src/model/client/rating.dart';
 import 'package:http/http.dart';
 
 /// The client for accessing the Giphy API.
@@ -79,7 +79,7 @@ class GiphyClient {
     );
   }
 
-  /// Get GIF by ID returns a GIF’s metadata based on the GIF ID specified.
+  /// Get GIF by ID returns a GIF's metadata based on the GIF ID specified.
   Future<GiphyGif> byId(String id) async =>
       _fetchGif(baseUri.replace(path: 'v1/gifs/$id'));
 

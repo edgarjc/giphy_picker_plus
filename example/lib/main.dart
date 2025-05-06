@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:giphy_picker/giphy_picker.dart';
+import 'package:giphy_picker_plus/giphy_picker.dart';
 
 void main() {
   runApp(const MyApp());

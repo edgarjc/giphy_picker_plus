@@ -1,4 +1,4 @@
-import 'package:giphy_picker/src/model/client/image.dart';
+import 'package:giphy_picker_plus/src/model/client/image.dart';
 
 class GiphyImages {
   final GiphyStillImage? fixedHeightStill;

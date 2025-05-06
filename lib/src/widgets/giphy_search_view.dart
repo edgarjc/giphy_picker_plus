@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:giphy_picker/src/model/giphy_repository.dart';
-import 'package:giphy_picker/src/utils/debouncer.dart';
-import 'package:giphy_picker/src/widgets/giphy_attribution_mark.dart';
-import 'package:giphy_picker/src/widgets/giphy_context.dart';
+import 'package:giphy_picker_plus/src/model/giphy_repository.dart';
+import 'package:giphy_picker_plus/src/utils/debouncer.dart';
+import 'package:giphy_picker_plus/src/widgets/giphy_attribution_mark.dart';
+import 'package:giphy_picker_plus/src/widgets/giphy_context.dart';
 
 /// Provides the UI for searching Giphy gif images.
 class GiphySearchView extends StatefulWidget {

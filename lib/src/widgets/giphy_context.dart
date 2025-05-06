@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:giphy_picker/giphy_picker.dart';
-import 'package:giphy_picker/src/model/giphy_repository.dart';
-import 'package:giphy_picker/src/widgets/giphy_error_view.dart';
-import 'package:giphy_picker/src/widgets/giphy_search_text.dart';
-import 'package:giphy_picker/src/widgets/giphy_thumbnail_grid.dart';
+import 'package:giphy_picker_plus/giphy_picker.dart';
+
+import 'package:giphy_picker_plus/src/model/giphy_repository.dart';
+import 'package:giphy_picker_plus/src/widgets/giphy_error_view.dart';
+import 'package:giphy_picker_plus/src/widgets/giphy_search_text.dart';
+import 'package:giphy_picker_plus/src/widgets/giphy_thumbnail_grid.dart';
 
 /// Defines the function for building app bars.
 typedef AppBarBuilder = PreferredSizeWidget? Function(
