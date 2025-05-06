@@ -25,7 +25,7 @@ class GiphyErrorView extends StatelessWidget {
         Text(
           error.toString(),
           textAlign: TextAlign.center,
-          style: Theme.of(context).textTheme.bodyLarge!.copyWith(color: c),
+          style: Theme.of(context).textTheme.bodyLarge
         )
       ]),
     );
