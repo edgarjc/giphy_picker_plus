@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:collection';
 import 'dart:math';
 
-import 'package:giphy_picker_plus/giphy_picker.dart';
+import 'package:giphy_picker_plus/giphy_picker_plus.dart';
 
 /// A general-purpose repository with support for on-demand paged retrieval and caching of values of type T.
 abstract class Repository<T> {

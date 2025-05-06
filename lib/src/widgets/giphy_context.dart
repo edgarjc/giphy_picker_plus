@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:giphy_picker_plus/giphy_picker.dart';
+import 'package:giphy_picker_plus/giphy_picker_plus.dart';
 
 import 'package:giphy_picker_plus/src/model/giphy_repository.dart';
 import 'package:giphy_picker_plus/src/widgets/giphy_error_view.dart';
